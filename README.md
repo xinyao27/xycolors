@@ -65,6 +65,24 @@ _This package supports [basic color detection](https://nodejs.org/api/tty.html#w
 - `magentaBright`
 - `cyanBright`
 - `whiteBright`
+- `blackStylize`
+- `blackSecondaryStylize`
+- `redStylize`
+- `redSecondaryStylize`
+- `greenStylize`
+- `greenSecondaryStylize`
+- `yellowStylize`
+- `yellowSecondaryStylize`
+- `blueStylize`
+- `blueSecondaryStylize`
+- `magentaStylize`
+- `magentaSecondaryStylize`
+- `cyanStylize`
+- `cyanSecondaryStylize`
+- `whiteStylize`
+- `whiteSecondaryStylize`
+- `grayStylize`
+- `graySecondaryStylize`
 
 ### Background colors
 
