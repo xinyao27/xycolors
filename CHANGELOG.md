@@ -1,5 +1,7 @@
 
 
+## [0.1.1](https://github.com/xinyao27/xycolors/compare/0.1.0...0.1.1) (2024-05-17)
+
 # 0.1.0 (2024-05-17)
 
 

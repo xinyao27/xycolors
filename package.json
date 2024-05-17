@@ -1,6 +1,6 @@
 {
   "name": "xycolors",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A tiny and fast package for adding colors to your terminal output.",
   "type": "module",
   "keywords": [
