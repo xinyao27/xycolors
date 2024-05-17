@@ -25,5 +25,5 @@ export const hexToRgb = (value: string) => {
 
   const num = Number.parseInt(color, 16)
 
-  return [(num >> 16) & 255, (num >> 8) & 255, num & 255]
+  return [(num >> 16) & 255, (num >> 8) & 255, num & 255] as const
 }

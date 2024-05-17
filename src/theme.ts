@@ -1,4 +1,4 @@
-export const theme: Record<string, [number, number]> = {
+export const theme = {
   reset: [0, 0],
   bold: [1, 22],
   dim: [2, 22],
@@ -44,4 +44,14 @@ export const theme: Record<string, [number, number]> = {
   bgMagentaBright: [105, 49],
   bgCyanBright: [106, 49],
   bgWhiteBright: [107, 49],
-}
+
+  blackStylize: ['#121212', '#eeeeee18'],
+  redStylize: ['#cb7676', '#ab5959'],
+  greenStylize: ['#4d9375', '#1e754f'],
+  yellowStylize: ['#e6cc77', '#bda437'],
+  blueStylize: ['#6394bf', '#296aa3'],
+  magentaStylize: ['#c391e6', '#c391e690'],
+  cyanStylize: ['#5eaab5', '#2993a3'],
+  whiteStylize: ['#ffffff', '#ffffff9f'],
+  grayStylize: ['#888888', '#444444'],
+} as const
