@@ -105,6 +105,27 @@ _This package supports [basic color detection](https://nodejs.org/api/tty.html#w
 - `bgCyanBright`
 - `bgWhiteBright`
 
+### TrueColor
+
+You can use the `hex` or `rgb` format.
+
+Foreground function: `hex()` `rgb()`
+Background function: `bgHex()` `bgRgb()`
+
+```ts
+import { bgHex, bgRgb, hex, rgb } from 'xycolors'
+
+// foreground color
+hex('#E0115F')('Ruby')
+hex('#96C')('Amethyst')
+rgb(224, 17, 95)('Ruby')
+
+// background color
+bgHex('#E0115F')('Ruby')
+bgHex('#96C')('Amethyst')
+bgRgb(224, 17, 95)('Ruby')
+```
+
 ## Benchmark
 
 ```sh
