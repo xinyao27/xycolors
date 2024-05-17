@@ -77,6 +77,8 @@ _This package supports [basic color detection](https://nodejs.org/api/tty.html#w
 - `blueSecondaryStylize`
 - `magentaStylize`
 - `magentaSecondaryStylize`
+- `pinkStylize`
+- `pinkSecondaryStylize`
 - `cyanStylize`
 - `cyanSecondaryStylize`
 - `whiteStylize`
