@@ -60,7 +60,6 @@
     "release": "release-it",
     "start": "bun run src/index.ts",
     "test": "bun test",
-    "preinstall": "npx only-allow bun",
     "up": "taze major -I",
     "prepare": "husky install",
     "benchmark": "node ./benchmark.js"
